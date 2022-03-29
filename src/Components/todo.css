@@ -1,0 +1,33 @@
+.lists{
+    color: black;
+    background-color: aqua;
+    width: 300px;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.lists p{
+    padding: 10px;
+    font-weight: bolder;
+    position: relative;
+}
+
+.lists i{
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.lists p input{
+    background-color: transparent;
+    border: 0;
+    color: black;
+    font-size: 18px;
+}
+
+.lists p input:focus{
+    outline: none;
+}
